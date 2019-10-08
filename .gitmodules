@@ -1,0 +1,3 @@
+[submodule "vscode-duotone-dark"]
+	path = vscode-duotone-dark
+	url = https://github.com/sallar/vscode-duotone-dark.git
