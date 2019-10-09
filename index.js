@@ -9,30 +9,35 @@ var meta = {
   releaseDate: new Date().toISOString().split('T')[0]
 };
 
-for (name in themes) {
-  var data = themes[name];
-  Object.assign(data, meta);
-  Object.keys(data).forEach(key => {
-    data[key] = data[key].replace('#', '').toUpperCase();
-  });
-  data.NAME = name;
-  fs.writeFileSync(path.join('dist', `DuoTone Dark ${name}.xml`), template(data));
-  fs.writeFileSync(path.join('C:\\Workdir\\MyApps\\Notepad++\\themes', `DuoTone Dark ${name}.xml`), template(data));
+function writeThemesXML(themes) {
+  for (name in themes) {
+    var data = themes[name];
+    Object.assign(data, meta);
+    Object.keys(data).forEach(key => {
+      data[key] = data[key].replace('#', '').toUpperCase();
+    });
+    // overwrite NAME which is uppercased, with theme object key = regular case
+    data.NAME = name;
+    fs.writeFileSync(path.join('dist', `DuoTone Dark ${name}.xml`), template(data));
+  }
 }
 
+function zip(ext) {
+  var output = 'dist\\Notepad++_DuoTone-Dark-themes';
+  var exe = '"%programFiles%\\7-Zip\\7z.exe"';
+  
+  exec(`${exe} a ${output}.${ext} dist\\*.xml`, (error, stdout, stderr) => {
+    if (!error) {
+      console.log(`Finished creating ${ext} archive in dist folder`);
+    } else {
+      console.error(error);
+    }
+  });
+}
+
+writeThemesXML(themes);
+
 if (process.argv[2] === '--zip') {
-  exec('"%programFiles%\\7-Zip\\7z.exe" a dist\\Notepad++_DuoTone-Dark-themes.7z dist\\*.xml', (error, stdout, stderr) => {
-    if (!error) {
-      console.log('Finished creating 7zip archive in dist folder');
-    } else {
-      console.error(error);
-    }
-  });
-  exec('"%programFiles%\\7-Zip\\7z.exe" a dist\\Notepad++_DuoTone-Dark-themes.zip dist\\*.xml', (error, stdout, stderr) => {
-    if (!error) {
-      console.log('Finished creating Zip archive in dist folder');
-    } else {
-      console.error(error);
-    }
-  });
+  zip('zip');
+  zip('7z');
 }

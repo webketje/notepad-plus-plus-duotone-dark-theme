@@ -9,6 +9,8 @@
 
 ---
 
+![Screenshot](assets/duotone-dark-for-notepad-plus-plus.png)
+
 ## Install
 
 Download the latest 7zip or zip release from [Releases](https://github.com/webketje/notepad-plus-plus-duotone-dark-theme/releases/latest) and extract it to your Notepad++ themes directory.
@@ -24,6 +26,10 @@ cd notepad-plus-plus-duotone-dark-theme
 copy "%cd%\dist" C:\Workdir\MyApps\Notepad++\themes /is /it
 ```
 
+## Recommended fonts
+
+Consolas is ok, [Inconsolata LGC](https://github.com/DeLaGuardo/Inconsolata-LGC), with bold font style is best (install them first).
+
 ## Languages
 
 Currently supports: HTML, XML, YML, PHP, Javascript, JSON, CSS, SCSS, batch, ini
@@ -34,7 +40,7 @@ To be added: Python, Markdown, others if popular demand
 You need [NodeJS](https://nodejs.org). Clone the repo, run `npm install`, tweak `theme.xml`, then run `npm run build`. `npm run zip` will also create a ZIP & 7Zip archive in the `/dist` folder, however you will need to install 7-Zip first. 
 
 ### Contribution
-Please report issues/bugs, feature requests and suggestions for improvements to the [issue tracker](https://github.com/arcticicestudio/nord-notepadplusplus/issues).
+Please report issues/bugs, feature requests and suggestions for improvements to the [issue tracker](https://github.com/webketje/notepad-plus-plus-duotone-dark-theme/issues).
 
 <p align="center">Copyright &copy; 2019 webketje</p>
 
