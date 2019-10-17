@@ -6,7 +6,7 @@ Description:         DuoTone Dark Forest style for Notepad++
                      Adapted from VSCode DuoTone Dark (https://github.com/sallar/vscode-duotone-dark) by Sallar.
 Supported languages: HTML/XML/YML/PHP/Javascript/JSON/CSS/SCSS/Python/batch/ini
 Created by:          webketje (webketje.com)
-Released:            2019-10-08
+Released:            2019-10-17
 License:             Feel free to modify this style and re-release it. This style is available under the terms of the MIT License.
 -->
 <NotepadPlus>
@@ -626,19 +626,19 @@ License:             Feel free to modify this style and re-release it. This styl
             <WordsStyle name="SECTION" styleID="2" fgColor="8CD0D3" bgColor="2A2D2A" fontName="" fontStyle="1" fontSize="" />
         </LexerType>
         <LexerType name="python" desc="Python" ext="">
-            <WordsStyle name="DEFAULT" styleID="0" fgColor="DCDCCC" bgColor="2A2D2A" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENTLINE" styleID="1" fgColor="7F9F7F" bgColor="2A2D2A" fontName="" fontStyle="3" fontSize="" />
-            <WordsStyle name="NUMBER" styleID="2" fgColor="8CD0D3" bgColor="2A2D2A" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="STRING" styleID="3" fgColor="CC9393" bgColor="2A2D2A" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="CHARACTER" styleID="4" fgColor="DCA3A3" bgColor="2A2D2A" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="KEYWORDS" styleID="5" fgColor="DFC47D" bgColor="2A2D2A" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
-            <WordsStyle name="TRIPLE" styleID="6" fgColor="7F9F7F" bgColor="2A2D2A" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="TRIPLEDOUBLE" styleID="7" fgColor="7F9F7F" bgColor="2A2D2A" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="CLASSNAME" styleID="8" fgColor="DCDCCC" bgColor="2A2D2A" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="DEFNAME" styleID="9" fgColor="CEDF99" bgColor="2A2D2A" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="OPERATOR" styleID="10" fgColor="9F9D6D" bgColor="2A2D2A" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="IDENTIFIER" styleID="11" fgColor="DCDCCC" bgColor="2A2D2A" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENTBLOCK" styleID="12" fgColor="7F9F7F" bgColor="2A2D2A" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="A9BCA9" bgColor="2A2D2A" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENTLINE" styleID="1" fgColor="738273" bgColor="2A2D2A" fontName="" fontStyle="3" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="2" fgColor="E7F98B" bgColor="2A2D2A" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING" styleID="3" fgColor="E7F98B" bgColor="2A2D2A" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CHARACTER" styleID="4" fgColor="E7F98B" bgColor="2A2D2A" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="KEYWORDS" styleID="5" fgColor="DDF8DD" bgColor="2A2D2A" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="TRIPLE" styleID="6" fgColor="738273" bgColor="2A2D2A" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="TRIPLEDOUBLE" styleID="7" fgColor="738273" bgColor="2A2D2A" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CLASSNAME" styleID="8" fgColor="A9BCA9" bgColor="2A2D2A" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DEFNAME" styleID="9" fgColor="A9BCA9" bgColor="2A2D2A" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="99A659" bgColor="2A2D2A" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="IDENTIFIER" styleID="11" fgColor="A9BCA9" bgColor="2A2D2A" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENTBLOCK" styleID="12" fgColor="738273" bgColor="2A2D2A" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="r" desc="R" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="DCDCCC" bgColor="2A2D2A" fontName="" fontStyle="0" fontSize="" />

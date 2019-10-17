@@ -23,7 +23,7 @@ Alternatively, you can install with command-line by doing:
 ```batch
 git clone https://github.com/webketje/notepad-plus-plus-duotone-dark-theme.git
 cd notepad-plus-plus-duotone-dark-theme
-copy "%cd%\dist" C:\Workdir\MyApps\Notepad++\themes /is /it
+robocopy "%cd%\dist" "%programFiles%\Notepad++\themes" /is /it
 ```
 
 ## Recommended fonts
@@ -32,7 +32,7 @@ Consolas is ok, [Inconsolata LGC](https://github.com/DeLaGuardo/Inconsolata-LGC)
 
 ## Languages
 
-Currently supports: HTML, XML, YML, PHP, Javascript, JSON, CSS, SCSS, batch, ini
+Currently supports: HTML, XML, YML, PHP, Python, Javascript, JSON, CSS, SCSS, batch, ini
 To be added: Python, Markdown, others if popular demand
 
 ## Development
