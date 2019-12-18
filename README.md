@@ -18,28 +18,31 @@ You can also extract the themes somewhere else, start Notepad++ and import them 
 
 ![](assets/install-npp.png)
 
-Alternatively, you can install with command-line by doing:
+Alternatively, you can install with command-line by doing (requires Node & NPM):
 
 ```batch
 git clone https://github.com/webketje/notepad-plus-plus-duotone-dark-theme.git
 cd notepad-plus-plus-duotone-dark-theme
-robocopy "%cd%\dist" "%programFiles%\Notepad++\themes" /is /it
+npm install
+set "NPP_THEMES_DIR=C:\Path\to\Notepad++\themes"
+npm run build && npm run move
 ```
-
-## Recommended fonts
-
-Consolas is ok, [Inconsolata LGC](https://github.com/DeLaGuardo/Inconsolata-LGC), with bold font style is best (install them first).
 
 ## Languages
 
-Currently supports: HTML, XML, YML, PHP, Python, Javascript, JSON, CSS, SCSS, batch, ini
-To be added: Python, Markdown, others if popular demand
+Currently supports: HTML, XML, YML, PHP, Python, Javascript, JSON, CSS, SCSS, batch, ini, Python
+Unsupported languages that are available in Zenburn theme will be displayed ok.
+
+## Config files
+
+Currently supports: .env, .prettierrc, .eslintrc, .gitmodules, .gitattributes
 
 ## Development
 
-You need [NodeJS](https://nodejs.org). Clone the repo, run `npm install`, tweak `theme.xml`, then run `npm run build`. `npm run zip` will also create a ZIP & 7Zip archive in the `/dist` folder, however you will need to install 7-Zip first. 
+You need [NodeJS](https://nodejs.org). Clone the repo, run `npm install`, tweak `theme.xml`, then run `npm run build`. `npm run zip` will also create a ZIP & 7Zip archive in the `/dist` folder, however you will need to install 7-Zip first.
 
 ### Contribution
+
 Please report issues/bugs, feature requests and suggestions for improvements to the [issue tracker](https://github.com/webketje/notepad-plus-plus-duotone-dark-theme/issues).
 
 <p align="center">Copyright &copy; 2019 webketje</p>

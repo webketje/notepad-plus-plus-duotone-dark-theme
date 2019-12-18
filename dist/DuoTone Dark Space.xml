@@ -6,7 +6,7 @@ Description:         DuoTone Dark Space style for Notepad++
                      Adapted from VSCode DuoTone Dark (https://github.com/sallar/vscode-duotone-dark) by Sallar.
 Supported languages: HTML/XML/YML/PHP/Javascript/JSON/CSS/SCSS/Python/batch/ini
 Created by:          webketje (webketje.com)
-Released:            2019-10-17
+Released:            2019-12-09
 License:             Feel free to modify this style and re-release it. This style is available under the terms of the MIT License.
 -->
 <NotepadPlus>
@@ -365,7 +365,7 @@ License:             Feel free to modify this style and re-release it. This styl
             <WordsStyle name="VALUE" styleID="19" fgColor="B06845" bgColor="24242E" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="ENTITY" styleID="10" fgColor="B06845" bgColor="24242E" fontName="" fontStyle="2" fontSize="" />
         </LexerType>
-        <LexerType name="ini" desc="ini file" ext="">
+        <LexerType name="ini" desc="ini file" ext="env reg yml prettierrc eslintrc">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="8686CB" bgColor="24242E" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMENT" styleID="1" fgColor="5B5B7B" bgColor="24242E" fontName="" fontStyle="3" fontSize="" />
             <WordsStyle name="SECTION" styleID="2" fgColor="FE7734" bgColor="24242E" fontName="" fontStyle="1" fontSize="" />
@@ -424,7 +424,7 @@ License:             Feel free to modify this style and re-release it. This styl
             <WordsStyle name="DEFAULT" styleID="11" fgColor="B06845" bgColor="24242E" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="NUMBER" styleID="4" fgColor="8686CB" bgColor="24242E" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="STRING DOUBLE QUOTE" styleID="6" fgColor="FE7734" bgColor="24242E" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="STRING SINGLE QUOTE" styleID="7" fgColor="FF0080" bgColor="6B4859" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING SINGLE QUOTE" styleID="7" fgColor="F92672" bgColor="24242E" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="BOOLEAN NULL" styleID="5" fgColor="8686CB" bgColor="24242E" fontName="" fontStyle="0" fontSize="" keywordClass="instre1">endfunction endif</WordsStyle>
             <WordsStyle name="OPERATOR" styleID="10" fgColor="B06845" bgColor="24242E" fontName="" fontStyle="1" fontSize="" />
         </LexerType>
@@ -654,7 +654,7 @@ License:             Feel free to modify this style and re-release it. This styl
         </LexerType>
         <LexerType name="rc" desc="RC" ext="">
             <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="FFCFAF" bgColor="24242E" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="DEFAULT" styleID="11" fgColor="DCDCCC" bgColor="24242E" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="8686CB" bgColor="24242E" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="DFC47D" bgColor="24242E" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
             <WordsStyle name="TYPE WORD" styleID="16" fgColor="CEDF99" bgColor="24242E" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="NUMBER" styleID="4" fgColor="8CD0D3" bgColor="24242E" fontName="" fontStyle="0" fontSize="" />
@@ -669,6 +669,22 @@ License:             Feel free to modify this style and re-release it. This styl
             <WordsStyle name="COMMENT LINE DOC" styleID="15" fgColor="7F9F7F" bgColor="24242E" fontName="" fontStyle="3" fontSize="" />
             <WordsStyle name="COMMENT DOC KEYWORD" styleID="17" fgColor="7F9F7F" bgColor="24242E" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="COMMENT DOC KEYWORD ERROR" styleID="18" fgColor="7F9F7F" bgColor="24242E" fontName="" fontStyle="0" fontSize="" />
+        </LexerType>
+        <LexerType name="registry" desc="registry" ext="">
+            <WordsStyle name="DEFAULT STYLE" styleID="32" fgColor="8686CB" bgColor="24242E" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="8686CB" bgColor="24242E" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="5B5B7B" bgColor="24242E" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="VALUE NAME" styleID="2" fgColor="0000FF" bgColor="24242E" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING" styleID="3" fgColor="7F007F" bgColor="24242E" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="HEX DIGIT" styleID="4" fgColor="7F0B0C" bgColor="24242E" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="VALUE TYPE" styleID="5" fgColor="00007F" bgColor="24242E" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="ADDED KEY" styleID="6" fgColor="530155" bgColor="24242E" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="REMOVED KEY" styleID="7" fgColor="FF0000" bgColor="24242E" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ESCAPED CHARACTERS IN STRINGS" styleID="8" fgColor="7D8187" bgColor="24242E" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="GUID IN KEY PATH" styleID="9" fgColor="7B5F15" bgColor="24242E" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="GUID IN STRING" styleID="10" fgColor="7B5F15" bgColor="24242E" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="PARAMETER" styleID="11" fgColor="0B6561" bgColor="24242E" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATORS" styleID="12" fgColor="000000" bgColor="24242E" fontName="" fontStyle="1" fontSize="" />
         </LexerType>
         <LexerType name="ruby" desc="Ruby" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="DCDCCC" bgColor="24242E" fontName="" fontStyle="0" fontSize="" />
@@ -844,13 +860,13 @@ License:             Feel free to modify this style and re-release it. This styl
     </LexerStyles>
     <GlobalStyles>
         <!-- Attention : Don't modify the name of styleID="0" -->
-        <WidgetStyle name="Global override" styleID="0" fgColor="8686CB" bgColor="24242E" fontName="" fontStyle="1" fontSize="10" />
-        <WidgetStyle name="Default Style" styleID="32" fgColor="8686CB" bgColor="24242E" fontName="" fontStyle="0" fontSize="10" />
+        <WidgetStyle name="Global override" styleID="0" fgColor="8686CB" bgColor="24242E" fontName="Consolas" fontStyle="0" fontSize="" />
+        <WidgetStyle name="Default Style" styleID="32" fgColor="8686CB" bgColor="24242E" fontName="Consolas" fontStyle="0" fontSize="" />
         <WidgetStyle name="Indent guideline style" styleID="37" fgColor="49495A" bgColor="24242E" fontName="" fontStyle="0" fontSize="" />
         <WidgetStyle name="Brace highlight style" styleID="34" fgColor="FFFFFF" bgColor="24242E" fontName="" fontStyle="1" fontSize="" />
-        <WidgetStyle name="Bad brace colour" styleID="35" fgColor="FF0080" bgColor="24242E" fontName="" fontStyle="0" fontSize="" />
-        <WidgetStyle name="Current line background colour" styleID="0" bgColor="24242E" fgColor="" fontSize="" fontStyle="0" />
-        <WidgetStyle name="Selected text colour" styleID="0" bgColor="3F3F4F" fgColor="CC0000" fontStyle="0" />
+        <WidgetStyle name="Bad brace colour" styleID="35" fgColor="F92672" bgColor="24242E" fontName="" fontStyle="0" fontSize="" />
+        <WidgetStyle name="Current line background colour" styleID="0" bgColor="2B2B36" fgColor="" fontSize="" fontStyle="0" />
+        <WidgetStyle name="Selected text colour" styleID="0" bgColor="3F3F4F" fgColor="" fontStyle="0" />
         <WidgetStyle name="Caret colour" styleID="2069" fgColor="FE7734" bgColor="24242E" fontStyle="0" />
         <WidgetStyle name="Edge colour" styleID="0" fgColor="8686CB" bgColor="24242E" fontSize="" fontStyle="0" />
         <WidgetStyle name="Line number margin" styleID="33" fgColor="7272A1" bgColor="24242E" fontName="" fontStyle="0" fontSize="" />
@@ -858,16 +874,16 @@ License:             Feel free to modify this style and re-release it. This styl
         <WidgetStyle name="Fold active" styleID="0" fgColor="7272A1" bgColor="24242E" fontSize="8" fontStyle="0" />
         <WidgetStyle name="Fold margin" styleID="0" fgColor="24242E" bgColor="24242E" fontSize="" fontStyle="0" />
         <WidgetStyle name="White space symbol" styleID="0" fgColor="49495A" bgColor="24242E" fontStyle="0" />
-        <WidgetStyle name="Smart HighLighting" styleID="29" bgColor="494256" fgColor="FCAF3E" fontSize="" fontStyle="1" />
-        <WidgetStyle name="Find Mark Style" styleID="31" bgColor="FF0080" fgColor="555753" fontSize="10" fontStyle="0" />
+        <WidgetStyle name="Smart HighLighting" styleID="29" bgColor="5B5B7B" fgColor="" fontSize="" fontStyle="1" />
+        <WidgetStyle name="Find Mark Style" styleID="31" bgColor="B06845" fgColor="" fontSize="10" fontStyle="0" />
         <WidgetStyle name="Mark Style 1" styleID="25" bgColor="88B090" fgColor="CC0000" fontSize="10" fontStyle="0" />
         <WidgetStyle name="Mark Style 2" styleID="24" bgColor="F8F893" fgColor="E9A354" fontStyle="0" />
         <WidgetStyle name="Mark Style 3" styleID="23" bgColor="F18C96" fgColor="FAAA3C" fontStyle="0" />
         <WidgetStyle name="Mark Style 4" styleID="22" bgColor="408040" fgColor="FFFF80" fontSize="10" fontStyle="0" />
         <WidgetStyle name="Mark Style 5" styleID="21" bgColor="968CF1" fgColor="000000" fontSize="10" fontStyle="0" />
         <WidgetStyle name="Incremental highlight all" styleID="28" bgColor="C3BF9F" fgColor="808080" fontStyle="0" />
-        <WidgetStyle name="Tags match highlighting" styleID="27" bgColor="7272A1" fgColor="FFCAB0" fontStyle="0" />
-        <WidgetStyle name="Tags attribute" styleID="26" bgColor="7272A1" fgColor="000000" fontStyle="0" />
+        <WidgetStyle name="Tags match highlighting" styleID="27" bgColor="5B5B7B" fgColor="" fontStyle="0" />
+        <WidgetStyle name="Tags attribute" styleID="26" bgColor="5B5B7B" fgColor="" fontStyle="0" />
         <WidgetStyle name="Active tab focused indicator" styleID="0" fgColor="FE7734" bgColor="24242E" fontStyle="0" />
         <WidgetStyle name="Active tab unfocused indicator" styleID="0" fgColor="B06845" bgColor="24242E" fontStyle="0" />
         <WidgetStyle name="Active tab text" styleID="0" fgColor="24242E" bgColor="80FF00" fontStyle="0" />

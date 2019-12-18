@@ -1,11 +1,12 @@
 {
   "name": "notepad-plus-plus-duotone-dark-theme",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "https://github.com/webketje/notepad-plus-plus-duotone-dark-theme/blob/master/LICENSE",
   "main": "index.js",
   "scripts": {
     "build": "node index.js",
-    "zip": "node index.js --zip"
+    "zip": "node index.js --zip",
+    "move": "robocopy dist \"%NPP_THEMES_DIR%\" *.xml /it"
   },
   "repository": {
     "type": "git",

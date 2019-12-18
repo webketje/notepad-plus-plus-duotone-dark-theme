@@ -6,7 +6,7 @@ var themes = require('./vscode-duotone-dark/src/themes.js');
 var template = Handlebars.compile(fs.readFileSync('./theme.xml', 'utf-8'));
 
 var meta = {
-  releaseDate: new Date().toISOString().split('T')[0]
+  releaseDate: new Date().toISOString().split('T')[0],
 };
 
 function writeThemesXML(themes) {
@@ -18,14 +18,17 @@ function writeThemesXML(themes) {
     });
     // overwrite NAME which is uppercased, with theme object key = regular case
     data.NAME = name;
-    fs.writeFileSync(path.join('dist', `DuoTone Dark ${name}.xml`), template(data));
+    fs.writeFileSync(
+      path.join('dist', `DuoTone Dark ${name}.xml`),
+      template(data)
+    );
   }
 }
 
 function zip(ext) {
   var output = 'dist\\Notepad++_DuoTone-Dark-themes';
   var exe = '"%programFiles%\\7-Zip\\7z.exe"';
-  
+
   exec(`${exe} a ${output}.${ext} dist\\*.xml`, (error, stdout, stderr) => {
     if (!error) {
       console.log(`Finished creating ${ext} archive in dist folder`);
