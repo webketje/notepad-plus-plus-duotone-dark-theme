@@ -1,0 +1,103 @@
+This file is divided in different sections from top to bottom:
+SVN (context) diff file, and unified diff (with <> or +-) each separated by 5 blank lines 
+  
+Index: bar.c
+===================================================================
+--- bar.c	(revision 3)
++++ bar.c	(working copy)
+@@ -1,7 +1,12 @@
++#include <sys/types.h>
++#include <sys/stat.h>
++#include <unistd.h>
++
++#include <.stdio.h>
+
+ int main(void) {
+-  printf("Sixty-four slices of American Cheese...\n");
++  printf("Sixty-five slices of American Cheese...\n");
+ return 0;
+ }
+
+Index: README
+===================================================================
+--- README	(revision 3)
++++ README	(working copy)
+@@ -193,3 +193,4 @@
++Note to self:  pick up laundry.
+
+Index: stuff/fish.c
+===================================================================
+--- stuff/fish.c	(revision 1)
++++ stuff/fish.c	(working copy)
+-Welcome to the file known as 'fish'.
+-Information on fish will be here soon.
+
+Index: stuff/things/bloo.h
+===================================================================
+--- stuff/things/bloo.h	(revision 8)
++++ stuff/things/bloo.h	(working copy)
++Here is a new file to describe
++things about bloo.
+
+
+
+
+
+--- lao	Sat Jan 26 23:30:39 1991
++++ tzu	Sat Jan 26 23:30:50 1991
+0a1,6
+> This is an important
+> notice! It should
+> therefore be located at
+> the beginning of this
+> document!
+>
+11,15d16
+< This paragraph contains
+< text that is outdated.
+< It will be deleted in the
+< near future.
+<
+17c18
+< check this dokument. On
+---
+> check this document. On
+24a26,29
+>
+> This paragraph contains
+> important new additions
+> to this document.
+
+
+
+
+
+*** /path/to/original	timestamp
+--- /path/to/new	timestamp
+***************
+*** 1,3 ****
+--- 1,9 ----
++ This is an important
++ notice! It should
++ therefore be located at
++ the beginning of this
++ document!
++
+  This part of the
+  document has stayed the
+  same from version to
+***************
+*** 8,20 ****
+  compress the size of the
+  changes.
+
+- This paragraph contains
+- text that is outdated.
+- It will be deleted in the
+- near future.
+
+  It is important to spell
+  ! check this dokument. On
+  the other hand, a
+  misspelled word isn't
+  the end of the world.
