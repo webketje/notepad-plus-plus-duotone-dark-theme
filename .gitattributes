@@ -1,0 +1,5 @@
+* text eol=lf
+tests/ export-ignore
+assets/ export-ignore
+.* export-ignore
+vscode-duotone-dark export-ignore

@@ -86,20 +86,20 @@ License:             Feel free to modify this style and re-release it. This styl
             <WordsStyle name="COMOBJ" styleID="14" fgColor="{{ DUO2 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="bash" desc="bash" ext="">
-            <WordsStyle name="DEFAULT" styleID="0" fgColor="{{ DUO2 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="{{ UNO2 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="ERROR" styleID="1" fgColor="EDD6ED" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="INSTRUCTION WORD" styleID="4" fgColor="DFC47D" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
-            <WordsStyle name="NUMBER" styleID="3" fgColor="8CD0D3" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="">toto titi</WordsStyle>
-            <WordsStyle name="STRING" styleID="5" fgColor="CC9393" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="INSTRUCTION WORD" styleID="4" fgColor="{{ UNO1 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="NUMBER" styleID="3" fgColor="{{ DUO1 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="">toto titi</WordsStyle>
+            <WordsStyle name="STRING" styleID="5" fgColor="{{ DUO1 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="CHARACTER" styleID="6" fgColor="{{ DUO1 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="OPERATOR" styleID="7" fgColor="9F9D6D" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="IDENTIFIER" styleID="8" fgColor="{{ DUO2 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="SCALAR" styleID="9" fgColor="E3CEAB" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="7" fgColor="{{ DUO3 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="IDENTIFIER" styleID="8" fgColor="{{ UNO2 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="SCALAR" styleID="9" fgColor="{{ DUO2 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="COMMENT LINE" styleID="2" fgColor="{{ UNO4 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="3" fontSize="" />
-            <WordsStyle name="PARAM" styleID="10" fgColor="FFEBDD" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="BACKTICKS" styleID="11" fgColor="CEDF99" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="HERE DELIM" styleID="12" fgColor="FFCFAF" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="HERE Q" styleID="13" fgColor="{{ DUO2 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="PARAM" styleID="10" fgColor="{{ DUO1 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="BACKTICKS" styleID="11" fgColor="{{ DUO1 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="HERE DELIM" styleID="12" fgColor="{{ UNO1 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="HERE Q" styleID="13" fgColor="{{ UNO2 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="2" fontSize="" />
         </LexerType>
         <LexerType name="batch" desc="Batch" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="{{ UNO2 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="">synthesize</WordsStyle>

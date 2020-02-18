@@ -12,14 +12,14 @@ GROUP_NAME ?=apache
 GROUP_ID ?=50649780
 APP_VOLUME ?=$(APP_NAME)
 #### END MAIN PARAMETERS##################################
-SERVICE_NAME ?= icts-t-fii
+SERVICE_NAME ?= test
 
 
 APP_PORT ?= 80
 
 PHPENV ?= test
 
-DOCKER_HOST ?= icts-t-kstest-2.ks.icts.kuleuven.be:4243
+DOCKER_HOST ?= prefix-kstest-2.ks.icts.org.be:4243
 
 
 SERVICE_TAG=$(APP_NAME)
@@ -91,17 +91,17 @@ build-docker-image-test:
 
 ## Main target for interactive dev environment, mounting local directory inside the container
 app-dev: check-env build-docker-dev build-docker-image-dev
-	@echo "your service wil run on $(SERVICE_TAG_DEV).icts-t-fii-php72.service.qsvcd:$(APP_PORT)"
+	@echo "your service wil run on $(SERVICE_TAG_DEV).test-php72.service.qsvcd:$(APP_PORT)"
 	docker run --rm -ti --expose $(APP_PORT) -v "$(APP_DIR):/var/www/$(APP_NAME)/htdocs" -v "/nasfs/groups/fii:/nasfs/groups/fii"  $(DOCKER_TARGET)
 
 ## Main target for test deployment, code is pushed inside the container
 app-test: check-env build-archive build-docker-standalone build-docker-image-test
-	@echo "Building a stand alone installation running on http://icts-t-dev-$(USER_NAME)-$(APP_NAME).service.qsvcd"
+	@echo "Building a stand alone installation running on http://prefix-dev-$(USER_NAME)-$(APP_NAME).service.qsvcd"
 	docker run --rm -ti --name $(APP_NAME) -v $(APP_VOLUME):/var/www/$(APP_NAME)/storage/app/public --expose $(APP_PORT) $(DOCKER_TARGET)
 
 # using archive built from the current working directory
 app-test-wd: check-env build-archive-wd build-docker-standalone build-docker-image-test
-	@echo "Building a stand alone installation running on http://icts-t-dev-$(USER_NAME)-$(APP_NAME).service.qsvcd"
+	@echo "Building a stand alone installation running on http://prefix-dev-$(USER_NAME)-$(APP_NAME).service.qsvcd"
 	docker run --rm -ti --name $(APP_NAME) --expose $(APP_PORT) $(DOCKER_TARGET)
 
 
