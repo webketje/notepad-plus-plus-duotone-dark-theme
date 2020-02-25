@@ -4,9 +4,10 @@ File name:           DuoTone Dark Forest.xml
 Style Name:          DuoTone Dark Forest
 Description:         DuoTone Dark Forest style for Notepad++
                      Adapted from VSCode DuoTone Dark (https://github.com/sallar/vscode-duotone-dark) by Sallar.
-Supported languages: HTML/XML/YML/PHP/Javascript/JSON/CSS/SCSS/Python/batch/ini
+Supported languages: HTML/XML/YML/PHP/Javascript/JSON/CSS/SCSS/SQL/Python/Makefile/bash/batch/ini/env/diff
+UDL languages:       markdown
 Created by:          webketje (webketje.com)
-Released:            2020-02-18
+Released:            2020-02-25
 License:             Feel free to modify this style and re-release it. This style is available under the terms of the MIT License.
 -->
 <NotepadPlus>
