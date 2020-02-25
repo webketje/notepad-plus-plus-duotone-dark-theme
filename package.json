@@ -6,7 +6,7 @@
   "scripts": {
     "build": "node index.js",
     "zip": "node index.js --zip",
-    "move": "robocopy dist \"%NPP_THEMES_DIR%\" *.xml /it"
+    "move": "cmd /S /C robocopy dist \"%NPP_THEMES_DIR%\" \"DuoTone Dark *.xml\" /it > nul && robocopy dist \"%NPP_PATH%\\userDefineLangs\" userDefinedLang-*.xml /it > nul"
   },
   "repository": {
     "type": "git",

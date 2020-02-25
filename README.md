@@ -1,7 +1,7 @@
 <p align="center"><img src="https://notepad-plus-plus.org/images/logo.svg" width="96" height="84" alt="Notepad++ logo"/></p>
 <p align="center">
   <a href="https://github.com/webketje/notepad-plus-plus-duotone-dark-theme/releases/latest">
-    <img src="https://img.shields.io/github/v/release/webketje/notepad-plus-plus-duotone-dark-theme?style=flat-square"/>
+    <img src="https://img.shields.io/github/v/release/webketje/notepad-plus-plus-duotone-dark-theme?sort=semver&style=flat-square"/>
   </a>
 </p>
 <p align="center">5 clean, duotone <a href="https://notepad-plus-plus.org">Notepad++</a> themes.</p>
@@ -30,7 +30,9 @@ npm run build && npm run move
 
 ## Languages
 
-Currently supports: HTML, XML, YML, PHP, Python, Javascript, JSON, CSS, SCSS, batch, ini, Python
+Currently supports: HTML, XML, YML, PHP, Javascript, JSON, CSS, SCSS, SQL, Python, Makefile, bash, batch, ini, env, diff
+
+Also includes a better UDL for markdown (in 5 themes).
 Unsupported languages that are available in Zenburn theme will be displayed ok.
 
 ## Config files
