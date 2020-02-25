@@ -52,15 +52,18 @@ function writeUDLs(themes, udls, dest) {
 }
 
 function zip(ext) {
-  var output = 'dist\\Notepad++_DuoTone-Dark-themes';
+  var output = 'Notepad++_DuoTone-Dark-themes';
   var exe = '"%programFiles%\\7-Zip\\7z.exe"';
-  exec(`${exe} a ${output}.${ext} dist\\*.xml`, (error, stdout, stderr) => {
-    if (!error) {
-      console.log(`Finished creating ${ext} archive in dist folder`);
-    } else {
-      console.error(error);
+  exec(
+    `cd dist && ${exe} a -aoa ${output}.${ext} *.xml`,
+    (error, stdout, stderr) => {
+      if (!error) {
+        console.log(`Finished creating ${ext} archive in dist folder`);
+      } else {
+        console.error(error);
+      }
     }
-  });
+  );
 }
 
 if (process.argv[2] === '--test') {
