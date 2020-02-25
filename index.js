@@ -7,7 +7,7 @@ var template = Handlebars.compile(fs.readFileSync('./theme.xml', 'utf-8'));
 var meta = {
   releaseDate: new Date().toISOString().split('T')[0],
 };
-function writeThemesXML(themes) {
+function writeThemesXML(themes, dest) {
   for (name in themes) {
     var data = themes[name];
     Object.assign(data, meta);
@@ -17,13 +17,13 @@ function writeThemesXML(themes) {
     // overwrite NAME which is uppercased, with theme object key = regular case
     data.NAME = name;
     fs.writeFileSync(
-      path.join('dist', `DuoTone Dark ${name}.xml`),
+      path.join(dest || 'dist', `DuoTone Dark ${name}.xml`),
       template(data)
     );
   }
 }
 
-function writeUDLs(themes, udls) {
+function writeUDLs(themes, udls, dest) {
   for (name in themes) {
     var data = themes[name];
     Object.assign(data, meta);
@@ -41,7 +41,10 @@ function writeUDLs(themes, udls) {
         )
       );
       fs.writeFileSync(
-        path.join('dist', `userDefinedLang-markdown_DuoTone Dark ${name}.xml`),
+        path.join(
+          dest || 'dist',
+          `userDefinedLang-markdown_DuoTone Dark ${name}.xml`
+        ),
         template(data)
       );
     });
@@ -59,9 +62,20 @@ function zip(ext) {
     }
   });
 }
-writeThemesXML(themes);
-writeUDLs(themes, ['markdown']);
-if (process.argv[2] === '--zip') {
-  zip('zip');
-  zip('7z');
+
+if (process.argv[2] === '--test') {
+  writeThemesXML(themes, path.join(process.env.NPP_PATH, 'themes'));
+  writeUDLs(
+    themes,
+    ['markdown'],
+    path.join(process.env.NPP_PATH, 'userDefineLangs')
+  );
+} else {
+  writeThemesXML(themes);
+  writeUDLs(themes, ['markdown']);
+
+  if (process.argv[2] === '--zip') {
+    zip('zip');
+    zip('7z');
+  }
 }
