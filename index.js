@@ -43,7 +43,7 @@ function writeUDLs(themes, udls, dest) {
       fs.writeFileSync(
         path.join(
           dest || 'dist',
-          `userDefinedLang-markdown_DuoTone Dark ${name}.xml`
+          `userDefinedLang-${lang}_DuoTone Dark ${name}.xml`
         ),
         template(data)
       );
@@ -70,12 +70,12 @@ if (process.argv[2] === '--test') {
   writeThemesXML(themes, path.join(process.env.NPP_PATH, 'themes'));
   writeUDLs(
     themes,
-    ['markdown'],
+    ['markdown', 'Dockerfile'],
     path.join(process.env.NPP_PATH, 'userDefineLangs')
   );
 } else {
   writeThemesXML(themes);
-  writeUDLs(themes, ['markdown']);
+  writeUDLs(themes, ['markdown', 'Dockerfile']);
 
   if (process.argv[2] === '--zip') {
     zip('zip');

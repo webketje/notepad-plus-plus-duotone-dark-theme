@@ -24,20 +24,23 @@ Alternatively, you can install with command-line by doing (requires Node & NPM):
 git clone https://github.com/webketje/notepad-plus-plus-duotone-dark-theme.git
 cd notepad-plus-plus-duotone-dark-theme
 npm install
-set "NPP_THEMES_DIR=C:\Path\to\Notepad++\themes"
+set "NPP_PATH=C:\Path\to\Notepad++\themes"
 npm run build && npm run move
 ```
 
-## Languages
+## Support
 
-Currently supports: HTML, XML, YML, PHP, Javascript, JSON, CSS, SCSS, SQL, Python, Makefile, bash, batch, ini, env, diff
+### Languages
 
-Also includes a better UDL for markdown (in 5 themes).
-Unsupported languages that are available in Zenburn theme will be displayed ok.
+Currently supported: C, C#, C++, Objective-C, HTML, XML, YML, PHP, Javascript, JSON, CSS, SCSS, SQL, Python, Makefile, bash, batch, diff
 
-## Config files
+### User-defined languages
 
-Currently supports: .env, .prettierrc, .eslintrc, .gitmodules, .gitattributes
+In 5 themes: markdown (better), Dockerfile
+
+### Config files
+
+Currently supported: .env, .ini, .prettierrc, .eslintrc, .gitmodules, .gitattributes
 
 ## Development
 
