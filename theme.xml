@@ -772,12 +772,12 @@ License:             Feel free to modify this style and re-release it. This styl
             <WordsStyle name="BLOCK COMMENT" styleID="18" fgColor="{{ UNO4 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="2" fontSize="" />
         </LexerType>
         <LexerType name="tex" desc="TeX" ext="">
-            <WordsStyle name="DEFAULT" styleID="0" fgColor="{{ DUO2 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="SPECIAL" styleID="1" fgColor="8CD0D3" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="GROUP" styleID="2" fgColor="CEDF99" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="SYMBOL" styleID="3" fgColor="DFC47D" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMAND" styleID="4" fgColor="FFCFAF" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="">if else for while</WordsStyle>
-            <WordsStyle name="TEXT" styleID="5" fgColor="CC9393" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="">bool long int char</WordsStyle>
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="{{ UNO2 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="SPECIAL" styleID="1" fgColor="{{ DUO1 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="GROUP" styleID="2" fgColor="{{ DUO2 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="SYMBOL" styleID="3" fgColor="{{ DUO2 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMAND" styleID="4" fgColor="{{ UNO1 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="">if else for while</WordsStyle>
+            <WordsStyle name="TEXT" styleID="5" fgColor="{{ UNO2 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="">bool long int char</WordsStyle>
         </LexerType>
         <LexerType name="vb" desc="VB / VBS" ext="">
             <WordsStyle name="DEFAULT" styleID="7" fgColor="{{ UNO2 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
