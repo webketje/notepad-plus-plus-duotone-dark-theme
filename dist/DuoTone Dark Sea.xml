@@ -7,7 +7,7 @@ Description:         DuoTone Dark Sea style for Notepad++
 Supported languages: HTML/XML/YML/PHP/Javascript/JSON/CSS/SCSS/SQL/Python/Makefile/bash/batch/ini/env/diff
 UDL languages:       markdown
 Created by:          webketje (webketje.com)
-Released:            2020-08-05
+Released:            2020-12-08
 License:             Feel free to modify this style and re-release it. This style is available under the terms of the MIT License.
 -->
 <NotepadPlus>
@@ -606,16 +606,16 @@ License:             Feel free to modify this style and re-release it. This styl
         <LexerType name="powershell" desc="PowerShell" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="88B4E7" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMENT" styleID="1" fgColor="586F89" bgColor="1D262F" fontName="" fontStyle="2" fontSize="" />
-            <WordsStyle name="STRING" styleID="2" fgColor="CC9393" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING" styleID="2" fgColor="34FEBB" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="CHARACTER" styleID="3" fgColor="34FEBB" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="NUMBER" styleID="4" fgColor="8CD0D3" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="VARIABLE" styleID="5" fgColor="32AE85" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="OPERATOR" styleID="6" fgColor="9F9D6D" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="INSTRUCTION WORD" styleID="8" fgColor="DFC47D" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
-            <WordsStyle name="CMDLET" styleID="9" fgColor="FFCFAF" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
-            <WordsStyle name="ALIAS" styleID="10" fgColor="CEDF99" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
-            <WordsStyle name="HERE STRING" styleID="14" fgColor="CC9393" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="HERE CHARACTER" styleID="15" fgColor="CC9393" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="34FEBB" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="VARIABLE" styleID="5" fgColor="88B4E7" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="6" fgColor="32AE85" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="INSTRUCTION WORD" styleID="8" fgColor="D6E9FF" bgColor="1D262F" fontName="" fontStyle="2" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="CMDLET" styleID="9" fgColor="D6E9FF" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
+            <WordsStyle name="ALIAS" styleID="10" fgColor="88B4E7" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
+            <WordsStyle name="HERE STRING" styleID="14" fgColor="34FEBB" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="HERE CHARACTER" styleID="15" fgColor="34FEBB" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMENT STREAM" styleID="13" fgColor="586F89" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMENT DOC KEYWORD" styleID="16" fgColor="586F89" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" keywordClass="type4" />
         </LexerType>
@@ -693,23 +693,23 @@ License:             Feel free to modify this style and re-release it. This styl
             <WordsStyle name="ERROR" styleID="1" fgColor="F92672" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMENTLINE" styleID="2" fgColor="586F89" bgColor="1D262F" fontName="" fontStyle="2" fontSize="" />
             <WordsStyle name="POD" styleID="3" fgColor="32AE85" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="NUMBER" styleID="4" fgColor="8CD0D3" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="INSTRUCTION" styleID="5" fgColor="E3CEAB" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
-            <WordsStyle name="STRING" styleID="6" fgColor="CC9393" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="34FEBB" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="INSTRUCTION" styleID="5" fgColor="D6E9FF" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="STRING" styleID="6" fgColor="34FEBB" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="CHARACTER" styleID="7" fgColor="34FEBB" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="CLASS NAME" styleID="8" fgColor="DFE4CF" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="DEF NAME" styleID="9" fgColor="EFEF8F" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="OPERATOR" styleID="10" fgColor="9F9D6D" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="IDENTIFIER" styleID="11" fgColor="FFEBDD" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="REGEX" styleID="12" fgColor="CC9393" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="GLOBAL" styleID="13" fgColor="FFEBDD" bgColor="1D262F" fontName="" fontStyle="2" fontSize="" />
-            <WordsStyle name="SYMBOL" styleID="14" fgColor="E3CEAB" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="MODULE NAME" styleID="15" fgColor="32AE85" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="INSTANCE VAR" styleID="16" fgColor="FFCFAF" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="CLASS VAR" styleID="17" fgColor="FFCFAF" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CLASS NAME" styleID="8" fgColor="88B4E7" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DEF NAME" styleID="9" fgColor="88B4E7" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="32AE85" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="IDENTIFIER" styleID="11" fgColor="88B4E7" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="REGEX" styleID="12" fgColor="34FEBB" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="GLOBAL" styleID="13" fgColor="88B4E7" bgColor="1D262F" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="SYMBOL" styleID="14" fgColor="34FEBB" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="MODULE NAME" styleID="15" fgColor="88B4E7" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="INSTANCE VAR" styleID="16" fgColor="88B4E7" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CLASS VAR" styleID="17" fgColor="88B4E7" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="BACKTICKS" styleID="18" fgColor="32AE85" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="DATA SECTION" styleID="19" fgColor="32AE85" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="STRING Q" styleID="24" fgColor="C89191" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING Q" styleID="24" fgColor="34FEBB" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="scheme" desc="Scheme" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="32AE85" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
@@ -845,7 +845,7 @@ License:             Feel free to modify this style and re-release it. This styl
             <WordsStyle name="IDENTIFIER" styleID="2" fgColor="D6E9FF" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMENT" styleID="1" fgColor="586F89" bgColor="1D262F" fontName="" fontStyle="2" fontSize="" />
             <WordsStyle name="INSTRUCTION WORD" styleID="3" fgColor="32AE85" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
-            <WordsStyle name="NUMBER" styleID="4" fgColor="8CD0D3" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="34FEBB" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="REFERENCE" styleID="5" fgColor="32AE85" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="DOCUMENT" styleID="6" fgColor="D6E9FF" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="TEXT" styleID="7" fgColor="34FEBB" bgColor="1D262F" fontName="" fontStyle="0" fontSize="" />
