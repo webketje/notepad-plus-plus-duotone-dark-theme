@@ -606,16 +606,16 @@ License:             Feel free to modify this style and re-release it. This styl
         <LexerType name="powershell" desc="PowerShell" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="{{ UNO2 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMENT" styleID="1" fgColor="{{ UNO4 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="2" fontSize="" />
-            <WordsStyle name="STRING" styleID="2" fgColor="CC9393" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING" styleID="2" fgColor="{{ DUO1 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="CHARACTER" styleID="3" fgColor="{{ DUO1 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="NUMBER" styleID="4" fgColor="8CD0D3" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="VARIABLE" styleID="5" fgColor="{{ DUO2 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="OPERATOR" styleID="6" fgColor="9F9D6D" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="INSTRUCTION WORD" styleID="8" fgColor="DFC47D" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
-            <WordsStyle name="CMDLET" styleID="9" fgColor="FFCFAF" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
-            <WordsStyle name="ALIAS" styleID="10" fgColor="CEDF99" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
-            <WordsStyle name="HERE STRING" styleID="14" fgColor="CC9393" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="HERE CHARACTER" styleID="15" fgColor="CC9393" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="{{ DUO1 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="VARIABLE" styleID="5" fgColor="{{ UNO2 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="6" fgColor="{{ DUO2 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="INSTRUCTION WORD" styleID="8" fgColor="{{ UNO1 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="2" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="CMDLET" styleID="9" fgColor="{{ UNO1 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
+            <WordsStyle name="ALIAS" styleID="10" fgColor="{{ UNO2 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
+            <WordsStyle name="HERE STRING" styleID="14" fgColor="{{ DUO1 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="HERE CHARACTER" styleID="15" fgColor="{{ DUO1 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMENT STREAM" styleID="13" fgColor="{{ UNO4 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMENT DOC KEYWORD" styleID="16" fgColor="{{ UNO4 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" keywordClass="type4" />
         </LexerType>
@@ -693,23 +693,23 @@ License:             Feel free to modify this style and re-release it. This styl
             <WordsStyle name="ERROR" styleID="1" fgColor="{{ INVALID_BG }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMENTLINE" styleID="2" fgColor="{{ UNO4 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="2" fontSize="" />
             <WordsStyle name="POD" styleID="3" fgColor="{{ DUO2 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="NUMBER" styleID="4" fgColor="8CD0D3" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="INSTRUCTION" styleID="5" fgColor="E3CEAB" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
-            <WordsStyle name="STRING" styleID="6" fgColor="CC9393" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="{{ DUO1 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="INSTRUCTION" styleID="5" fgColor="{{ UNO1 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="STRING" styleID="6" fgColor="{{ DUO1 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="CHARACTER" styleID="7" fgColor="{{ DUO1 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="CLASS NAME" styleID="8" fgColor="DFE4CF" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="DEF NAME" styleID="9" fgColor="EFEF8F" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="OPERATOR" styleID="10" fgColor="9F9D6D" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="IDENTIFIER" styleID="11" fgColor="FFEBDD" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="REGEX" styleID="12" fgColor="CC9393" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="GLOBAL" styleID="13" fgColor="FFEBDD" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="2" fontSize="" />
-            <WordsStyle name="SYMBOL" styleID="14" fgColor="E3CEAB" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="MODULE NAME" styleID="15" fgColor="{{ DUO2 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="INSTANCE VAR" styleID="16" fgColor="FFCFAF" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="CLASS VAR" styleID="17" fgColor="FFCFAF" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CLASS NAME" styleID="8" fgColor="{{ UNO2 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DEF NAME" styleID="9" fgColor="{{ UNO2 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="{{ DUO2 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="IDENTIFIER" styleID="11" fgColor="{{ UNO2 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="REGEX" styleID="12" fgColor="{{ DUO1 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="GLOBAL" styleID="13" fgColor="{{ UNO2 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="SYMBOL" styleID="14" fgColor="{{ DUO1 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="MODULE NAME" styleID="15" fgColor="{{ UNO2 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="INSTANCE VAR" styleID="16" fgColor="{{ UNO2 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CLASS VAR" styleID="17" fgColor="{{ UNO2 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="BACKTICKS" styleID="18" fgColor="{{ DUO2 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="DATA SECTION" styleID="19" fgColor="{{ DUO2 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="STRING Q" styleID="24" fgColor="C89191" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING Q" styleID="24" fgColor="{{ DUO1 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="scheme" desc="Scheme" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="{{ DUO2 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
@@ -845,7 +845,7 @@ License:             Feel free to modify this style and re-release it. This styl
             <WordsStyle name="IDENTIFIER" styleID="2" fgColor="{{ UNO1 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMENT" styleID="1" fgColor="{{ UNO4 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="2" fontSize="" />
             <WordsStyle name="INSTRUCTION WORD" styleID="3" fgColor="{{ DUO2 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
-            <WordsStyle name="NUMBER" styleID="4" fgColor="8CD0D3" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="{{ DUO1 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="REFERENCE" styleID="5" fgColor="{{ DUO2 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="DOCUMENT" styleID="6" fgColor="{{ UNO1 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="TEXT" styleID="7" fgColor="{{ DUO1 }}" bgColor="{{ BACKGROUND }}" fontName="" fontStyle="0" fontSize="" />

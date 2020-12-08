@@ -24,15 +24,15 @@ Alternatively, you can install with command-line by doing (requires Node & NPM):
 git clone https://github.com/webketje/notepad-plus-plus-duotone-dark-theme.git
 cd notepad-plus-plus-duotone-dark-theme
 npm install
-set "NPP_PATH=C:\Path\to\Notepad++\themes"
-npm run build && npm run move
+set "NPP_PATH=C:\Path\to\Notepad++"
+npm run test
 ```
 
 ## Support
 
 ### Languages
 
-Currently supported: C, C#, C++, Objective-C, HTML, XML, YML, PHP, Javascript, JSON, CSS, SCSS, SQL, Python, Makefile, bash, batch, diff
+Currently supported: C, C#, C++, Objective-C, HTML, XML, YML, PHP, Java, Javascript, Typescript, VueJS, JSON, CSS, SASS, SCSS, SQL, Python, Makefile, bash, batch, LaTeX, R, Powershell, Ruby, diff
 
 ### User-defined languages
 
