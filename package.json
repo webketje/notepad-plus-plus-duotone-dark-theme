@@ -1,7 +1,7 @@
 {
   "name": "notepad-plus-plus-duotone-dark-theme",
-  "version": "0.8.0",
-  "description": "https://github.com/webketje/notepad-plus-plus-duotone-dark-theme/blob/master/LICENSE",
+  "version": "0.7.0",
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
     "build": "node index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/webketje/notepad-plus-plus-duotone-dark-theme.git"
+    "url": "https://github.com/webketje/notepad-plus-plus-duotone-dark-theme.git"
   },
   "author": "Kevin Van Lierde (webketje)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/webketje/notepad-plus-plus-duotone-dark-theme/issues"
   },
-  "homepage": "https://github.com/webketje/notepad-plus-plus-duotone-dark-theme/blob/master/README.md",
+  "homepage": "https://github.com/webketje/notepad-plus-plus-duotone-dark-theme#readme",
   "devDependencies": {
     "handlebars": "^4.4.2"
   }
